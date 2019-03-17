@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "main.js",
+  "scripts": {
+    "csass": "node-sass sass/main.scss style.css -w --recursive"
+  },
+  "author": "Mayur Wani",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
