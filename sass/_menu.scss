@@ -130,8 +130,6 @@
   }
 }
 
-
-
 // delay each nav-item slide
 @for $x from 1 through 4 {
   .nav-item:nth-child(#{$x}) {
