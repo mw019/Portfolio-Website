@@ -55,7 +55,7 @@
     .menu-brand .portrait {
       width: 250px;
       height: 250px;
-      background: url(../dist/img/portrait.jpg);
+      background: url(../img/portrait.jpg);
       border-radius: 50%;
       border: solid 3px #71eeb8; }
   .menu .nav-item {
@@ -102,7 +102,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/img/background.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img::after {
@@ -112,7 +112,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(85, 85, 85, 0.92);
+      background: rgba(85, 85, 85, 0.89);
       z-index: -1; }
 
 h1,
@@ -270,7 +270,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-brand .portrait {
-      background: url(/img/portrait_small.jpg);
+      background: url("../dist/img/portrait.jpg");
       width: 150px;
       height: 150px; }
   .about-info {

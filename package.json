@@ -5,7 +5,7 @@
   "main": "main.js",
   "homepage": "https://mw019.github.io/Portfolio-Website",
   "scripts": {
-    "csass": "node-sass sass/main.scss dist/style.css -w --recursive",
+    "csass": "node-sass -w sass/ -o dist/css/  --recursive",
     "deploy": "gh-pages -d dist"
   },
   "author": "Mayur Wani",
