@@ -55,7 +55,7 @@
     .menu-brand .portrait {
       width: 250px;
       height: 250px;
-      background: url(/img/dp.jpg);
+      background: url(/img/portrait.jpg);
       border-radius: 50%;
       border: solid 3px #71eeb8; }
   .menu .nav-item {
@@ -195,6 +195,25 @@ main {
       opacity: 0.5;
       border-color: #71eeb8;
       transition: all 0.5s ease-out; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 1.5rem;
+    border: #fff 3px solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #71eeb8;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
