@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "main.js",
+  "homepage": "https://mw019.github.io/Portfolio-Website",
   "scripts": {
-    "csass": "node-sass sass/main.scss style.css -w --recursive"
+    "csass": "node-sass sass/main.scss style.css -w --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Mayur Wani",
   "license": "ISC",
