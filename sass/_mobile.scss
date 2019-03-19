@@ -12,7 +12,7 @@
 
     .lg-heading {
       line-height: 1;
-      margin-bottom: 1 rem;
+      margin-bottom: 1rem;
     }
   }
 
@@ -43,6 +43,18 @@
       height: 150px;
     }
   }
+
+  .about-info {
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'info1'
+      'info2'
+      'info3';
+
+    grid-template-columns: 1fr;
+  }
+
 }
 
 // Smartphones
