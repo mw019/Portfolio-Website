@@ -20,7 +20,6 @@
     transform: rotate(180deg);
 
     .btn-line {
-
       // line1 - rotate
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
@@ -89,9 +88,9 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url(../img/portrait.jpg);
+      width: 300px;
+      height: 300px;
+      background: url(../dist/img/portrait.jpg);
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
@@ -106,7 +105,7 @@
       transform: translate3d(0, 0, 0);
     }
 
-    &.current>a {
+    &.current > a {
       color: $secondary-color;
     }
   }
@@ -126,7 +125,6 @@
       color: $secondary-color;
       @include easeOut;
     }
-
   }
 }
 
